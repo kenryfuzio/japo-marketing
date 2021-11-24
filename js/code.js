@@ -1,0 +1,3 @@
+// INICIALIZA A BIBLIOTECA DE ANIMAÇÃO
+
+  AOS.init();
