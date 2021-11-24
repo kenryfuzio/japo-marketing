@@ -3,5 +3,5 @@
 
 ## bibliotecas utilizadas:
  Font Awesome
- AOS Animated   
+ AOS Animated
  Jquery Lightbox

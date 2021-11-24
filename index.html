@@ -10,6 +10,8 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <link rel="stylesheet" href="css/styles.css">
+     <!-- lightbox  -->
+  <link href="css/lightbox.css" rel="stylesheet" />
 </head>
 <body>
 
@@ -251,12 +253,106 @@
 
  <!-- seção final equipe -->
 
+  <!-- seção final equipe -->
+ 
+ <!-- sessao Portfólio-->
+ <div id="portifolio" class="mt-5 text-center">
+  <h2 class="titulo mb-3 text-center">Portifólio</h2>
+  <a href="imagens/img-grande-1.jpg" data-lightbox="roadtrip"><img src="imagens/miniatura-1.jpg" alt=""></a>
+  <a href="imagens/img-grande-2.jpg" data-lightbox="roadtrip"><img src="imagens/miniatura-2.jpg" alt=""></a>
+  <a href="imagens/img-grande-3.jpg" data-lightbox="roadtrip"><img src="imagens/miniatura-3.jpg" alt=""></a>
+  <a href="imagens/img-grande-4.jpg" data-lightbox="roadtrip"><img src="imagens/miniatura-4.jpg" alt=""></a>
+  <a href="imagens/img-grande-5.jpg" data-lightbox="roadtrip"><img src="imagens/miniatura-5.jpg" alt=""></a>
+  <a href="imagens/img-grande-6.jpg" data-lightbox="roadtrip"><img src="imagens/miniatura-6.jpg" alt=""></a>
+</div>
+
+<!-- fim do portifolio -->
+ 
+
+<!-- formulário de cadastro -->
+<div id="cadastro" class="md-5 container">
+<h2 class="text-center mb-3 titulo">Cadastre-se</h2>
+<form id="frm-cadastro" action="" method="post" enctype="multipart/form-data">
+  <input type="text" class="form-control mb-3" name="nome" placeholder="insira seu nome" required>
+  <input type="email" class="form-control" name="email" placeholder="digite um e-mail válido" required>
+
+  
+  <p class="mt-3">Sexo
+  <input type="radio" name="sexo" value="feminino" class="form-check-input"> Feminino
+  <input type="radio" name="sexo" value="masculino" class="form-check-input"> Masculino
+   </p>
+
+
+
+<p class="mt-3">Atividade de lazer
+<br><input type="checkbox" name="lazer[]" value="cinema" class="form-check-input"> Cinema
+<br><input type="checkbox" name="lazer[]" value="esportes" class="form-check-input"> Esportes
+<br><input type="checkbox" name="lazer[]" value="viajar" class="form-check-input"> Viajar
+<br><input type="checkbox" name="lazer[]" value="assistir-serie" class="form-check-input"> Assistir série
+<br><input type="checkbox" name="lazer[]" value="videogame" class="form-check-input"> Videogame
+</p>
+
+
+ <p>Idade:
+  <input type="range" name="idade" id="idade" min="12" max="70" class="form-range" value="0" > 
+</p><span id="info idade"></span>
+
+
+
+<p>foto de perfil (opcional) 
+<input type="file" name="foto" id="foto" class="form-control"></p>
+<br>
+
+
+<p>Qual estado você mora?
+<select name="estado" id="estado" class="form-select">
+  <option>Selecione</option>
+  <option value="Acre">Acre</option>
+  <option value="Bahia">Bahia</option>
+  <option value="Ceará">Ceará</option>
+</select></p>
+</form>
+
+
+<br>
+<input type="password" name="senha" id="senha" placeholder="Digite a Senha" class="form-control">
+
+
+<br>
+<input type="submit" value="Enviar" class="btn btn-primary">
+
+</div>
+
+
+<!-- inicio do footer -->
+<footer class="container mt-5 bg-empresa"> 
+  <p>Onde estamos</p>
+     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1296.7338225114029!2d-45.858270264902366!3d-23.180522483247803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cc4bc96c8e4b37%3A0x961089d48d0b5240!2sSenac%20S%C3%A3o%20Jos%C3%A9%20dos%20Campos!5e0!3m2!1spt-BR!2sbr!4v1637765277789!5m2!1spt-BR!2sbr" width="70%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+     
+
+
+
+
+
+</footer>
+
+<!-- fim do footer -->
+
+
 
     
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-   <!-- AOS ANIMATE -->
+  
+  
+    <!-- AOS ANIMATE -->
    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  
+  
+   <!-- lightbox  -->
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="js/lightbox.js"></script>
 
     <script src="js/code.js"></script>
 </body>
