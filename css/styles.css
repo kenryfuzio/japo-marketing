@@ -30,3 +30,25 @@ background-color: rgba(0, 0, 0, 0.322);
 margin: 0 auto;
 width: 50%;
 }
+
+#seta-sobe{
+    display: block;
+    background-color: #777;
+    color: black;
+ position: fixed;
+ right: 10px;
+ bottom: 10px;
+ height: 40px;
+ width: 35px;
+ font-size: 25px;
+ padding-left: 8px;
+ border-radius: 15px;
+
+}
+
+
+#where{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
